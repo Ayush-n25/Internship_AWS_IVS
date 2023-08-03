@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IVS Stream Player</title>
+    <script src="https://player.live-video.net/1.5.0/amazon-ivs-player.min.js"></script>
+</head>
+<body>
+<div id="player"></div>
+
+<script>
+    var player = IVSPlayer.create();
+    var config = {
+        src: " https://eaf3d72c8500.us-east-1.playback.live-video.net/api/video/v1/us-east-1.128222158613.channel.yQYr5Ra81lV4.m3u8",
+        autoplay: true,
+        muted: false
+    };
+
+    player.attachHTMLVideoElement(document.getElementById('player'));
+    player.load(config).then(function() {
+        console.log('Player is ready to play.');
+    }).catch(function(err) {
+        console.error('Error loading player:', err);
+    });
+</script>
+</body>
+</html>

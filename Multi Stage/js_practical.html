@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practical Output</title>
+</head>
+<body>
+    <script>
+        try{
+            let n=prompt("Enter a age(number): ");
+            if(n>=0){
+                console.log("Your age is ",n);
+            }
+            else
+                throw new Error("Negative age is not possible");
+
+        }
+        catch (err){
+            alert("The error is "+err.message);
+        }
+    </script>
+
+</body>
+</html>

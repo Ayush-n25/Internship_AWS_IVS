@@ -1,0 +1,98 @@
+<!--
+/*! Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. SPDX-License-Identifier: Apache-2.0 */
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>IVS Web Broadcast Stages - Basic Example</title>
+
+    <!-- Fonts and Styling -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css" />
+    <link rel="stylesheet" href="./index.css" />
+
+    <!-- Stages in Broadcast SDK -->
+    <script src="https://web-broadcast.live-video.net/1.3.2/amazon-ivs-web-broadcast.js"></script>
+</head>
+
+<body>
+<!-- Introduction -->
+<header>
+    <h1>IVS Web Broadcast Stages </h1>
+
+    <p>Go Live ! <b><a href="https://docs.aws.amazon.com/ivs/latest/userguide/multiple-hosts.html">link for more info</a></b>You must have a meeting name for joining it.
+    </p>
+    <p>For joining as a host  <a href="index.html"><b>Click Here</b></a></p>
+
+</header>
+<hr />
+
+<!-- Setup Controls -->
+<div class="row">
+    <div class="column">
+        <label for="video-devices">Select Camera</label>
+        <select disabled id="video-devices">
+            <option selected disabled>Choose Option</option>
+        </select>
+    </div>
+    <div class="column">
+        <label for="audio-devices">Select Microphone</label>
+        <select disabled id="audio-devices">
+            <option selected disabled>Choose Option</option>
+        </select>
+    </div>
+    <div class="column" style="display: flex; margin-top: 1.5rem">
+        <button class="button" style="margin: auto; width: 100%" id="deleteStage" onclick="deleteStagefunc()" disabled>Delete Stream</button>
+    </div>
+</div>
+<!-- Additional info -->
+<div class="row">
+    <div class="column">
+        <label for="Pusername">Participant User Name</label>
+        <input type="text" name="Pusername" id="Pusername">
+    </div>
+    <div class="column">
+        <label for="PmeetingName">Participant Meeting Name</label>
+        <input type="text" name="PmeetingName" id="PmeetingName">
+    </div>
+    <div class="column">
+        <label for="Purl">Participant User Photo/Avatar</label>
+        <input type="text" name="Purl" id="Purl">
+    </div>
+    <div class="column" style="display: flex; margin-top: 1.5rem">
+        <button class="button" style="margin: auto; width: 100%" id="participant-join-button" >join Stage as participant</button>
+    </div>
+    <div class="column" style="display: flex; margin-top: 1.5rem">
+        <button class="button" style="margin: auto; width: 100%" id="participant-leave-button" disabled>Leave Stage</button>
+    </div>
+</div>
+
+<hr />
+<div class="row local-container">
+    <div class="column" id="local-media"></div>
+    <div class="static-controls hidden" id="local-controls">
+        <button class="button" id="mic-control">Mute Mic</button>
+        <button class="button" id="camera-control">Mute Camera</button>
+    </div>
+</div>
+
+<hr style="margin-top: 5rem"/>
+
+<!-- Remote Participants -->
+<div class="row">
+    <div id="remote-media"></div>
+</div>
+
+<!-- Load all Desired Scripts -->
+<script src="./helpers.js"></script>
+<script src="./media-devices.js"></script>
+<script src="./Pstages-simple.js"></script>
+</body>
+
+</html>
