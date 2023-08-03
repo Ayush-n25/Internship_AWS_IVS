@@ -1,0 +1,516 @@
+.div,
+.terms-conditions {
+  position: absolute;
+  top: 0.06rem;
+  line-height: 263%;
+  display: inline-block;
+  width: 22rem;
+  opacity: 0.5;
+}
+.div {
+  left: 0;
+}
+.terms-conditions {
+  left: 62.38rem;
+}
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0.06rem;
+  background-color: var(--color-lavender-200);
+  width: 78.19rem;
+  height: 0.06rem;
+}
+.footer,
+.parent {
+  position: absolute;
+  width: 84.38rem;
+  height: 2.5rem;
+}
+.parent {
+  top: 0;
+  left: 0;
+}
+.footer {
+  top: 216.38rem;
+  left: 9.88rem;
+  font-size: var(--font-size-mini);
+  color: var(--text-grey);
+}
+.advanced-fleet-tracking-soluti-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 99.19rem;
+  height: 36.06rem;
+  object-fit: cover;
+}
+.go-live-freely {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: -0.01em;
+  line-height: 3.81rem;
+  width:16rem;
+}
+.get-started {
+  position: relative;
+  top:1px;
+  text-align: center;
+  font-size: smaller;
+}
+.primary-button {
+  position: absolute;
+  top: 9.19rem;
+  left: 0.19rem;
+  border-radius: var(--br-mini);
+  background-color: var(--orange);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-mid) var(--padding-21xl);
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--font-size-2xl);
+}
+.go-live-freely-parent {
+  position: absolute;
+  top: 11.19rem;
+  left: 10.44rem;
+  width: 15.06rem;
+  height: 12.63rem;
+}
+.advanced-fleet-tracking-soluti {
+  position: absolute;
+  top: 164.69rem;
+  left: 0;
+  width: 99.19rem;
+  height: 36.06rem;
+}
+.loginsignup-child {
+  position: absolute;
+  top: 174.25rem;
+  left: 3.38rem;
+  width: 9.61rem;
+  height: 9.61rem;
+}
+.delivery-business-interfcaes-child {
+  position: absolute;
+  top: 0;
+  left: 6.38rem;
+  width: 99.19rem;
+  height: 94.94rem;
+}
+.group-inner,
+.group-item {
+  position: absolute;
+  top: 26.98rem;
+  left: 1.18rem;
+  width: 24.69rem;
+  height: 35.29rem;
+  opacity: 0.2;
+}
+.group-inner {
+  top: 5.33rem;
+  left: 67.37rem;
+  opacity: 0.3;
+}
+.ellipse-icon {
+  position: absolute;
+  top: 23.15rem;
+  left: 0;
+  width: 4.02rem;
+  height: 5.75rem;
+  opacity: 0.2;
+}
+.body-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.image-37 {
+  position: absolute;
+  top: -0.62rem;
+  left: -0.81rem;
+  border-radius: var(--br-26xl);
+  background: linear-gradient(120.97deg, #ce5beb, #5b61eb);
+  width: 66.31rem;
+  height: 65.94rem;
+}
+.ipad-pro-screen-1194x834-child,
+.login,
+.sign-in {
+  position: absolute;
+  top: 11.81rem;
+  left: 32.97rem;
+  width: 0.37rem;
+  height: 38.38rem;
+}
+.login,
+.sign-in {
+  top: 6.75rem;
+  left: 7.88rem;
+  font-size: var(--font-size-45xl);
+  display: inline-block;
+  width: 19.56rem;
+  height: 6.13rem;
+}
+.login {
+  left: 41.13rem;
+}
+.email,
+.password,
+.password1,
+.username,
+.username1 {
+  position: absolute;
+  top: 15.94rem;
+  display: inline-block;
+  height: 2.5rem;
+}
+.username {
+  left: 3.06rem;
+  font-size: var(--font-size-13xl);
+  width: 11.63rem;
+}
+.email,
+.password,
+.password1,
+.username1 {
+  left: 35.25rem;
+  width: 15.69rem;
+}
+.email,
+.password,
+.password1 {
+  top: 25.19rem;
+  left: 3.56rem;
+  width: 6.88rem;
+}
+.password,
+.password1 {
+  top: 35.13rem;
+  left: 3.5rem;
+  width: 10.38rem;
+}
+.password1 {
+  top: 25.88rem;
+  left: 35.94rem;
+  width: 11.88rem;
+}
+.ipad-pro-screen-1194x834-inner,
+.ipad-pro-screen-1194x834-item,
+.line-div {
+  position: absolute;
+  top: 21.53rem;
+  left: 3.47rem;
+  border-top: 1px solid var(--white);
+  box-sizing: border-box;
+  width: 26.19rem;
+  height: 0.06rem;
+}
+.ipad-pro-screen-1194x834-inner,
+.line-div {
+  top: 31.53rem;
+}
+.line-div {
+  top: 41.53rem;
+}
+.ipad-pro-screen-1194x834-child1,
+.line-icon {
+  position: absolute;
+  top: 21.53rem;
+  left: 36.13rem;
+  width: 26.13rem;
+  height: 0.06rem;
+}
+.ipad-pro-screen-1194x834-child1 {
+  top: 31.53rem;
+}
+.primary-button1,
+.primary-button2 {
+  position: absolute;
+  top: 45.5rem;
+  left: 8.88rem;
+  border-radius: var(--br-mini);
+  background-color: var(--orange);
+  width: 13.25rem;
+  height: 5.06rem;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-16xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--font-size-29xl);
+}
+.primary-button2 {
+  top: 35.88rem;
+  left: 42.44rem;
+  width: 11.31rem;
+  height: 4.31rem;
+}
+.forgot-password {
+  position: absolute;
+  top: 43.31rem;
+  left: 39.69rem;
+  display: inline-block;
+  width: 21rem;
+  height: 2.94rem;
+}
+.ipad-pro-screen-1194x834 {
+  position: absolute;
+  top: 2.69rem;
+  left: 3.44rem;
+  border-radius: var(--br-26xl);
+  width: 64rem;
+  height: 65.31rem;
+  overflow: hidden;
+}
+.ipad-pro {
+  position: absolute;
+  height: 100%;
+  width: 77.17%;
+  top: 0;
+  right: 9.59%;
+  bottom: 0;
+  left: 13.24%;
+}
+.ellipse-parent {
+  position: absolute;
+  top: 4.38rem;
+  left: 9rem;
+  width: 92.06rem;
+  height: 71.38rem;
+}
+.delivery-business-interfcaes {
+  position: absolute;
+  top: 49.63rem;
+  left: -6.37rem;
+  width: 111.96rem;
+  height: 96.07rem;
+  font-size: var(--font-size-17xl);
+}
+.one-stop-solution-for {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: -0.01em;
+  line-height: 3.38rem;
+}
+.rectangle-div {
+  position: absolute;
+  top: 8.44rem;
+  left: 23.13rem;
+  border-radius: var(--br-11xs) 0 var(--br-11xs) 0;
+  background-color: var(--white);
+  width: 5.25rem;
+  height: 0.25rem;
+}
+.one-stop-solution-for-all-your-parent {
+  position: absolute;
+  top: 25.69rem;
+  left: 25.44rem;
+  width: 51.88rem;
+  height: 8.69rem;
+}
+.all-in-one-proof-for-final-mil-child {
+  position: absolute;
+  top: 0;
+  left: 92.5rem;
+  width: 36.25rem;
+  height: 36.25rem;
+  opacity: 0.05;
+}
+.all-in-one-proof-for-final-mil-inner,
+.all-in-one-proof-for-final-mil-item {
+  position: absolute;
+  top: 18.38rem;
+  left: 97.94rem;
+  width: 8.81rem;
+  height: 19.47rem;
+}
+.all-in-one-proof-for-final-mil-inner {
+  top: 45.75rem;
+  left: 2.94rem;
+}
+.all-in-one-proof-for-final-mil {
+  position: absolute;
+  top: 165.31rem;
+  left: -2.94rem;
+  width: 128.75rem;
+  height: 65.22rem;
+  text-align: center;
+}
+.vector-icon {
+  position: absolute;
+  top: 2rem;
+  left: 11rem;
+  width: 100.16rem;
+  height: 59.13rem;
+}
+.sign-in1,
+.sign-inlogin {
+  position: absolute;
+  letter-spacing: -0.01em;
+  line-height: 3.94rem;
+  display: inline-block;
+  width: 42.56rem;
+  height: 11.44rem;
+}
+.sign-inlogin {
+  top: 0;
+  left: 0;
+}
+.sign-in1 {
+  top: 33.59rem;
+  left: 17.22rem;
+  font-size: var(--font-size-77xl);
+  color: var(--purple);
+}
+.text-child {
+  position: absolute;
+  top: 2.94rem;
+  left: 14.06rem;
+  width: 6.25rem;
+  height: 6.25rem;
+  overflow: hidden;
+}
+.text {
+  position: absolute;
+  top: 10.47rem;
+  left: 0;
+  width: 59.78rem;
+  height: 45.03rem;
+}
+.home-schedule {
+  position: absolute;
+  top: 0;
+  left: 3.78rem;
+  font-size: var(--font-size-lg);
+}
+.hero,
+.menu,
+.menu-wrapper {
+  position: absolute;
+  width: 59.78rem;
+  height: 55.5rem;
+}
+.menu {
+  top: 0;
+  left: 0;
+}
+.hero,
+.menu-wrapper {
+  top: 3.63rem;
+  left: 27.41rem;
+}
+.hero {
+  top: -2rem;
+  left: -11rem;
+  width: 100.16rem;
+  height: 59.13rem;
+  font-size: var(--font-size-36xl);
+}
+.cricles-icon {
+  position: absolute;
+  top: 30.25rem;
+  left: 0;
+  width: 126.88rem;
+  height: 226.69rem;
+}
+.navigate {
+  position: relative;
+  width: 4.81rem;
+  height: 2.13rem;
+}
+.go-live {
+  position: absolute;
+  top: 0.25rem;
+  left: 4.31rem;
+  line-height: 185%;
+  display: inline-block;
+  width: 18.44rem;
+  opacity: 0.8;
+}
+.logo-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3.63rem;
+  height: 3.63rem;
+}
+.go-live-parent,
+.loginsignup-inner {
+  position: absolute;
+  width: 22.75rem;
+  height: 3.63rem;
+}
+.go-live-parent {
+  top: 0;
+  left: 0;
+}
+.loginsignup-inner {
+  top: 202.88rem;
+  left: 3.44rem;
+  font-size: var(--font-size-5xl);
+  color: var(--text-grey);
+}
+.join-us-today,
+.join-us-today1 {
+  position: absolute;
+  display: inline-block;
+}
+.join-us-today {
+  top: 206.5rem;
+  left: 31.13rem;
+  font-size: var(--font-size-77xl);
+  line-height: 3.5rem;
+  text-transform: capitalize;
+  color: var(--color-black);
+  width: 59.06rem;
+  height: 6.13rem;
+}
+.join-us-today1 {
+  top: 16.75rem;
+  left: 16.75rem;
+  font-size: var(--font-size-lg);
+  width: 21.56rem;
+  height: 5rem;
+}
+.loginsignup-item {
+  position: absolute;
+  top: 5.38rem;
+  left: 54.38rem;
+  width: 48.38rem;
+  height: 31.84rem;
+  object-fit: cover;
+}
+.group-icon {
+  position: absolute;
+  top: 10.38rem;
+  left: 89.56rem;
+  width: 9.63rem;
+  height: 9.75rem;
+}
+.loginsignup {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 223.88rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--white);
+  font-family: var(--font-open-sans);
+}
+.Sbnt{
+  background-color: var(--orange);color: white;height: inherit;width: 14vw;border: none;
+border-radius: inherit;
+}
